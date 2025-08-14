@@ -35,7 +35,7 @@ import PredictiveDataSlide from './slides/PredictiveDataSlide.vue';
 import TechnicalConsiderationsSlide from './slides/TechnicalConsiderationsSlide.vue';
 import ROISlide from './slides/ROISlide.vue';
 import ClosingSlide from './slides/ClosingSlide.vue';
-import jonAvatar from '/jon.png';
+import jonAvatar from '../assets/jon.png';
 
 const currentSlide = ref(0);
 
