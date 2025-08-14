@@ -2,12 +2,16 @@
 	<div class="slide-deck" @keydown="handleKeydown" tabindex="0">
 		<!-- Slide Header -->
 		<div class="slide-header">
-			<img :src="jonAvatar" alt="Jon Ellwood" class="logo" />
-			<div class="slide-number">
-				{{ currentSlide + 1 }} / {{ slides.length }}
+			<div class="header-content">
+				<div class="avatar-container">
+					<img src="/jon.svg" alt="Jon Ellwood" class="avatar" />
+				</div>
+				<h1>Enhanced Data Entry</h1>
+				<div class="slide-counter">
+					{{ currentSlide + 1 }} / {{ slides.length }}
+				</div>
 			</div>
 		</div>
-
 		<!-- Slides -->
 		<component
 			:is="slides[currentSlide].component"
@@ -35,7 +39,6 @@ import PredictiveDataSlide from './slides/PredictiveDataSlide.vue';
 import TechnicalConsiderationsSlide from './slides/TechnicalConsiderationsSlide.vue';
 import ROISlide from './slides/ROISlide.vue';
 import ClosingSlide from './slides/ClosingSlide.vue';
-import jonAvatar from '../assets/jon.png';
 
 const currentSlide = ref(0);
 

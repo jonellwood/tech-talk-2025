@@ -167,15 +167,42 @@ li:nth-child(5) {
   z-index: 10;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-content h1 {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.slide-counter {
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
 .logo {
   height: 3rem;
   width: 3rem;
 }
 
-.slide-number {
-  font-size: 1rem;
-  color: var(--text-muted);
-  font-weight: 500;
+.avatar {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .slide-footer {
