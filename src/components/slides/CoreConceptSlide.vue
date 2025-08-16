@@ -1,28 +1,42 @@
 <template>
-  <div class="slide fade-in">
-    <h2>Making Systems Talk to Each Other</h2>
-    <p>Core Concept: Data Source Integration</p>
+	<div class="slide fade-in">
+		<h2>Think Like Your Customer</h2>
+		<p>The mindset shift that changes everything</p>
 
-    <ul>
-      <li><strong>API-first thinking:</strong> Connect your CRM, Financial Applications, HR systems, customer databases</li>
-      <li><strong>Real-time lookups:</strong> Auto-populate forms using existing customer/employee data</li>
-      <li><strong>Smart defaults:</strong> Use historical data to pre-fill common selections</li>
-      <li><strong>Validation at the source:</strong> Check against existing data to prevent duplicates and errors</li>
-    </ul>
+		<div class="highlight-box">
+			<h3>
+				From "How do we do our job?" to "How can we make their life easier?"
+			</h3>
+		</div>
 
-    <div class="highlight-box">
-      <h3>The Key Principle</h3>
-      <p>Single source of truth, multiple points of access</p>
-    </div>
-  </div>
+		<ul>
+			<li>
+				Your customers (internal and external) are real people with real
+				frustrations
+			</li>
+			<li>
+				Every form they fill out, every process they navigate - that's their
+				experience with YOU
+			</li>
+			<li>
+				They don't care about your departmental boundaries or system limitations
+			</li>
+			<li>They just want to get their job done with minimum hassle</li>
+		</ul>
+
+		<div class="highlight-box" style="margin-top: 2rem">
+			<h3>Key Principle</h3>
+			<p><strong>"Work with what we already know, not against it"</strong></p>
+		</div>
+	</div>
 </template>
 
 <script setup>
 // Speaker Notes:
-// - This is the foundation - systems talking to each other
-// - API-first: emphasize that most modern systems have APIs, even if not well documented
-// - Real-time: balance between performance and freshness of data
-// - Smart defaults: learn from user behavior and patterns
-// - Validation: catch errors before they propagate
-// - Time: 5 minutes total
+// - Ask audience: "How many of you have filled out the same information on multiple forms?"
+// - This is about empathy and customer-focused thinking
+// - Internal customers (employees) count just as much as external
+// - The customer doesn't see your org chart - they see one experience
+// - Set up the examples that follow with this mindset
+// - Time: 3 minutes total
 </script>

@@ -1,31 +1,57 @@
 <template>
-  <div class="slide fade-in">
-    <h2>Predictive Data Entry</h2>
-    <h3>Level 3: Start Simple</h3>
+	<div class="slide fade-in">
+		<h2>The Data Philosophy in Action</h2>
+		<h3>Working WITH Your Existing Information</h3>
 
-    <ul>
-      <li>Look for any dropdown where users pick the same 3-5 options 80% of the time</li>
-      <li>Identify forms where users copy information from their last entry</li>
-      <li>Find fields where the answer depends heavily on one other field they've already filled</li>
-    </ul>
+		<ul>
+			<li>
+				<strong>Single source of truth:</strong> Users must exist in HR system
+				first
+			</li>
+			<li>
+				<strong>Smart authentication:</strong> Integrated with existing login
+				systems
+			</li>
+			<li>
+				<strong>Strategic data copying:</strong> Where it makes sense for
+				performance and security
+			</li>
+			<li>
+				<strong>Eliminate redundant entry:</strong> If we know it, don't ask for
+				it again
+			</li>
+		</ul>
 
-    <div class="highlight-box">
-      <h3>Pattern Recognition</h3>
-      <p>If customer is in "Enterprise" tier → Default priority to "High", default assignee to "Senior Team", pre-populate SLA to "4 hours"</p>
-    </div>
+		<div class="highlight-box">
+			<h3>Real Example: Account Requests</h3>
+			<p>
+				<strong>Old way:</strong> Complex form with manual typing, prone to
+				errors<br />
+				<strong>New way:</strong> Select user → position determines permissions
+				→ submit<br />
+				<strong>System intelligence:</strong> "This person is a supervisor in
+				Finance, they need these 5 specific permissions"
+			</p>
+		</div>
 
-    <div style="margin-top: 2rem;">
-      <p><strong>Key:</strong> Always allow manual override. Prediction assists, never restricts.</p>
-    </div>
-  </div>
+		<div
+			style="
+				margin-top: 2rem;
+				background: var(--primary-dark);
+				padding: 1rem;
+				border-radius: 8px;
+			">
+			<p><strong>Result: From 15-minute process to 30 seconds</strong></p>
+		</div>
+	</div>
 </template>
 
 <script setup>
 // Speaker Notes:
-// - This is the advanced level but emphasize starting simple
-// - Don't need AI/ML for basic pattern recognition
-// - Look for existing patterns in your data
-// - The 80% rule is key - focus on the common cases
-// - Manual override is crucial for user acceptance
+// - This shows the technical philosophy behind the customer experience
+// - Emphasize working WITH existing systems, not replacing them
+// - The account request example shows dramatic time savings
+// - This is about system intelligence, not user burden
+// - Bridge to the takeaways coming next
 // - Time: 2-3 minutes
 </script>

@@ -1,33 +1,45 @@
 <template>
-  <div class="slide fade-in">
-    <h2>Start Small, Think Big</h2>
+	<div class="slide fade-in">
+		<h2>Your Challenge: Start Monday</h2>
 
-    <ul>
-      <li>Pick one high-volume form in your organization</li>
-      <li>Identify what data already exists elsewhere</li>
-      <li>Build one smart integration</li>
-      <li>Measure the impact and expand from there</li>
-    </ul>
+		<ul>
+			<li>Start with one form, one process, one customer interaction</li>
+			<li>Ask: "Is there a better way?"</li>
+			<li>
+				Look for where customers re-enter information they've already given you
+			</li>
+			<li>Remember: Your existing data is an untapped goldmine</li>
+		</ul>
 
-    <div class="highlight-box">
-      <h3>Key Takeaways</h3>
-      <p>Every minute your users spend typing information that already exists in your systems is a minute stolen from actual productive work. <strong>Let's give them those minutes back.</strong></p>
-      <br>
-      <p>Your database isn't just a storage system—it's a crystal ball that can predict what your users need before they even know they need it.</p>
-    </div>
+		<div class="highlight-box">
+			<h3>Final Thought</h3>
+			<p>
+				<strong
+					>When we make our customers' lives easier, we're not just improving
+					processes—we're building relationships.</strong
+				>
+			</p>
+			<br />
+			<p>
+				Every frustration we eliminate, every minute we save them, every "wow,
+				that was easy" moment we create—that's what transforms a transaction
+				into a relationship.
+			</p>
+		</div>
 
-    <div style="text-align: center; margin-top: 3rem;">
-      <h3 style="color: var(--accent-primary);">Thank You</h3>
-      <p style="color: var(--text-muted);">Questions?</p>
-    </div>
-  </div>
+		<div style="text-align: center; margin-top: 3rem">
+			<h3 style="color: var(--accent-primary)">For the People We Serve</h3>
+			<p style="color: var(--text-muted)">Questions?</p>
+		</div>
+	</div>
 </template>
 
 <script setup>
 // Speaker Notes:
-// - End with clear, actionable advice
-// - Emphasize starting small to build momentum
-// - The key takeaways should resonate and stick with the audience
-// - "Stolen time" and "crystal ball" metaphors are memorable
-// - Time: 1 minute - end strong and on time
+// - End with a clear call to action they can do Monday morning
+// - Emphasize that this is about relationships, not just efficiency
+// - The "wow, that was easy" moment is what customers remember
+// - Circle back to the title: "For the People We Serve"
+// - Leave them inspired to ask "Is there a better way?"
+// - Time: 1 minute
 </script>

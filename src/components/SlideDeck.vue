@@ -6,7 +6,7 @@
 				<div class="avatar-container">
 					<img src="/jon.svg" alt="Jon Ellwood" class="avatar" />
 				</div>
-				<h1>Enhanced Data Entry</h1>
+				<h1>Customer Relationships</h1>
 				<div class="slide-counter">
 					{{ currentSlide + 1 }} / {{ slides.length }}
 				</div>
@@ -23,7 +23,7 @@
 
 		<!-- Footer -->
 		<div class="slide-footer">
-			Smart Data Integration: Reducing Manual Work Through Intelligent Systems
+			Customer Relationships: For the People We Serve
 		</div>
 	</div>
 </template>
